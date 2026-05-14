@@ -6,8 +6,7 @@ A Machine Learning + NLP web application that detects whether a news article is 
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the app](https://your-app-link.streamlit.app)  
-*(Replace with your actual Streamlit Cloud URL after deployment)*
+👉 [Click here to try the app](https://fake-news-detector-2yrtvskabyugznnny3e93i.streamlit.app/)
 
 ---
 
