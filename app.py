@@ -14,8 +14,9 @@ nltk.download('punkt_tab')
 
 st.set_page_config(page_title="Fake News Detector", page_icon="📰")
 
-model = joblib.load(r"C:\Users\shahe\Machine Learning\NLP\Fake News Detector\model.pkl")
-vectorizer = joblib.load(r"C:\Users\shahe\Machine Learning\NLP\Fake News Detector\vectorizer.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'model.pkl'))
+vectorizer = joblib.load(os.path.join(BASE_DIR, 'vectorizer.pkl'))
 
 stop_words = set(stopwords.words('english'))
 
